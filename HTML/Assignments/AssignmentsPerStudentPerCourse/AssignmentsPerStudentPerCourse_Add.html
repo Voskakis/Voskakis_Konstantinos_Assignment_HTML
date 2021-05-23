@@ -70,6 +70,58 @@
 
 
 
+    <div class="container">
+
+        <h1 class="mt-4 mb-3">Add Assignment to a student assigned to a course</h1>
+        <br />
+
+
+        <form>
+            <table class="table">
+                <tr>
+                    <td>
+                        <label for="crs">Choose a student enrolled to a course:</label>
+                        <select name="course" id="crs">
+                            <option selected disabled="disabled"></option>
+                            <optgroup label="PS1: Web Development"></optgroup>
+                            <option value="1">Nancy Davolio</option>
+                            <option value="2">Andrew Fuller</option>
+                            <option value="3">Janet Leverling</option>
+                            <option value="4">Margaret Peacock</option>
+                            <option value="5">Steven Buchanan</option>
+                            <option value="6">Michael Suyama</option>
+                            <option value="7">Robert King</option>
+                            <optgroup label="PS2: Business Management"></optgroup>
+                            <option value="1">Nancy Davolio</option>
+                            <option value="8">Laura Callahan</option>
+                            <optgroup label="PS3: Economics"></optgroup>
+                            <optgroup label="PS4: 3D & Animation"></optgroup>
+                            <option value="2">Andrew Fuller</option>
+                            <option value="3">Janet Leverling</option>
+                            <option value="9">Anne Dodsworth</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="tr">Choose an assignment:</label>
+                        <select name="trainer" id="tr">
+                            <option selected disabled="disabled"></option>
+                            <option value="1">HTML excercise</option>
+                            <option value="2">Rock paper Scissors</option>
+                            <option value="3">Christmas balls</option>
+                            <option value="4">Noise Reduction</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <input type="submit" value="Hand out assignment to a student belonging to a course" class="btn btn-primary">
+        </form>
+
+        <div class="mt-3 mb-2">
+            <a class="btn btn-success" href="AssignmentsPerStudentPerCourse.html">Return to Assignments per student per course</a>
+        </div>
+    </div>
+
 
 </body>
 </html>
