@@ -2,7 +2,7 @@
 2021 Bootcamp 1st excercise on web development
 
 ## Προσοχή
-***Σε Google Chrome για κάποιο λόγο δεν επιτρέπει τη μετάβαση από AssignmentsPerStudentPerCourse.html σε AssignmentsPerStudentPerCourse_Add.html. Πιθανότατα ευθύνεται κάποιο δικό μου extension και δε συμβαίνει το ίδιο σε google chrome, αλλά καλό είναι να σημειωθεί.***
+**Σε Google Chrome για κάποιο λόγο δεν επιτρέπει τη μετάβαση από AssignmentsPerStudentPerCourse.html σε AssignmentsPerStudentPerCourse_Add.html. Πιθανότατα ευθύνεται κάποιο δικό μου extension και δε συμβαίνει το ίδιο σε άλλα google chrome, αλλά καλό είναι να σημειωθεί.** <br>
 Σε edge που δοκίμασα λειτουργεί κανονικά.
 
 ## Σημειώσεις
