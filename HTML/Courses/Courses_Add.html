@@ -71,5 +71,63 @@
 
 
 
+
+
+
+
+    <!--Create-->
+    <div class="container">
+        <h1 class="mt-4 mb-3">Create Courses</h1>
+        <br />
+
+
+        <form>
+            <div class="form-group">
+                <label for="CTitle">Title *</label>
+                <input id="CTitle" class="form-control" type="text" name="title" value="" autocomplete="off" />
+            </div>
+            <div class="form-group">
+                <label for="CStream">Stream *</label>
+                <input id="CStream" class="form-control" type="text" name="stream" value="" autocomplete="off" />
+            </div>
+            <div>
+                <label>Type *</label>
+                <select class="form-select" required>
+                    <option value="1">part-time</option>
+                    <option value="2">full-time</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="SDate">Starting date *</label>
+                <input id="SDate" class="form-control" type="date" name="StartingDate" value="" required />
+            </div>
+            <div class="form-group">
+                <label for="EDate">Ending date *</label>
+                <input id="EDate" class="form-control" type="date" name="EndingDate" value="" required/>
+            </div>
+
+
+            <button class="btn btn-primary form-control">Sumbit</button>
+
+        </form>
+        <i class="text-muted">Fields with * are mandatory.</i>
+
+        <div class="mt-3 mb-2">
+            <a class="btn btn-success" href="Courses.html">Return to Courses</a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
